@@ -1,5 +1,8 @@
 """stage04_analyze.py.
 
+Author: Abdelhafidh Mahouel
+Date: 2026-11
+
 (MODIFY YOUR VERSION OF THIS FILE)
 
 Source: analysis-ready Pandas DataFrame (from Transform stage)

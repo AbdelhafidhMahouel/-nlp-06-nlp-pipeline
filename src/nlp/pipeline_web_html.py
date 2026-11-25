@@ -1,5 +1,8 @@
 """src/nlp/pipeline_web_html.py - Module 6 Script.
 
+Author: Abdelhafidh Mahouel
+Date: 2026-11
+
 NO EDITS REQUIRED IN THIS FILE (if the paths have not changed.)
 
 Purpose
