@@ -1,8 +1,8 @@
 # nlp-06-nlp-pipeline
 
 [![Python 3.14](https://img.shields.io/badge/python-3.14%2B-blue?logo=python)](pyproject.toml)
-[![CI](https://github.com/denisecase/nlp-06-nlp-pipeline/actions/workflows/ci-python-zensical.yml/badge.svg)](https://github.com/denisecase/nlp-06-nlp-pipeline/actions/workflows/ci-python-zensical.yml)
-[![Documentation](https://img.shields.io/badge/docs-site-blue?logo=github)](https://denisecase.github.io/nlp-06-nlp-pipeline/)
+[![CI](https://github.com/AbdelhafidhMahouel/nlp-06-nlp-pipeline/actions/workflows/ci-python-zensical.yml/badge.svg)](https://github.com/AbdelhafidhMahouel/nlp-06-nlp-pipeline/actions/workflows/ci-python-zensical.yml)
+[![Documentation](https://img.shields.io/badge/docs-site-blue?logo=github)](https://abdelhafidhmahouel.github.io/nlp-06-nlp-pipeline/)
 
 [![uv managed](https://img.shields.io/badge/uv-managed-DE5FE9)](https://docs.astral.sh/uv/)
 [![ty type checked](https://img.shields.io/badge/ty-type_checked-2F80ED)](https://docs.astral.sh/ty/)
@@ -13,13 +13,14 @@
 
 ## Project Overview
 
-Author: Denise Case
+Author: Abdelhafidh Mahouel
 
-Date: 2026 October
+Date: 2026 November
 
-Sixth project in the Web Mining and Applied NLP course.
+Sixth project in the Web Mining and Applied NLP course
+(44620, Northwest Missouri State University).
 
-This project introduces a complete natural language
+This project builds a complete natural language
 processing pipeline for working with web documents.
 
 The goal is to retrieve HTML,
@@ -32,24 +33,26 @@ and persist the results.
 The project extends the EVTL approach
 from earlier modules by adding an explicit
 Analyze stage.
-
-Specifically, it reuses frequency and charts from 01,
-cleaning from 02,
-the stage pattern from 04, and
-extraction from 05.
-Co-occurrence and bigrams were covered in 03,
-but are not required for this project.
-
 The resulting architecture is
 Extract, Validate, Transform, Analyze, Load (EVTAL).
+
+Starting from the course example, I plan to:
+
+- Point the pipeline at a different arXiv paper on a topic I am interested in.
+- Adjust the cleaning steps (for example, adding domain-specific stopwords)
+  and document each cleaning decision.
+- Compare the type-token ratio and top tokens with the original example.
+- Update the bar chart and word cloud to reflect the new content.
 
 The project is configured in
 [pyproject.toml](pyproject.toml).
 
 ## Data
 
-The example retrieves an academic paper's abstract page
+The starting example retrieves an academic paper's abstract page
 from [arXiv](https://arxiv.org/abs/2602.20021).
+This will be replaced with my selected arXiv paper
+as the project develops.
 
 The source document contains:
 
@@ -195,7 +198,7 @@ uv run python -m pytest
 
 ## Project Documentation
 
-The [hosted documentation site](https://denisecase.github.io/nlp-06-nlp-pipeline/)
+The [hosted documentation site](https://abdelhafidhmahouel.github.io/nlp-06-nlp-pipeline/)
 is published using Zensical and GitHub Pages.
 
 The documentation site is used to present the project report,
@@ -213,8 +216,8 @@ to check project files and publish the docs.
 
 GitHub Actions include:
 
-- [CI: Python and Documentation Checks](https://github.com/denisecase/nlp-06-nlp-pipeline/actions/workflows/ci-python-zensical.yml)
-- [CD: Documentation Deployment](https://github.com/denisecase/nlp-06-nlp-pipeline/actions/workflows/deploy-zensical.yml)
+- [CI: Python and Documentation Checks](https://github.com/AbdelhafidhMahouel/nlp-06-nlp-pipeline/actions/workflows/ci-python-zensical.yml)
+- [CD: Documentation Deployment](https://github.com/AbdelhafidhMahouel/nlp-06-nlp-pipeline/actions/workflows/deploy-zensical.yml)
 
 ## Developer Reference
 
@@ -299,7 +302,7 @@ testing, documentation, and code quality.
 
 ## Links
 
-- [Hosted Documentation](https://denisecase.github.io/nlp-06-nlp-pipeline/)
+- [Hosted Documentation](https://abdelhafidhmahouel.github.io/nlp-06-nlp-pipeline/)
 - [Professional Python Workflow Guide](https://denisecase.github.io/pro-analytics-02/)
 - [Citation](CITATION.cff)
 - [License](LICENSE)
